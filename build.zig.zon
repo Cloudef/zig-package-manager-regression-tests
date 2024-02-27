@@ -1,0 +1,38 @@
+.{
+    .name = "package manager tests for zig-contrib",
+    .version = "0.0.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .tar = .{
+            .url = "https://github.com/Cloudef/zig-package-manager-regression-tests/raw/master/artifacts/1.tar",
+            .hash = "1220005bc134e96cb0fce8a63e3570b35f47e4aa05340fdf3548eb05ac1fcd592db0",
+        },
+        .tgz = .{
+            .url = "https://github.com/Cloudef/zig-package-manager-regression-tests/raw/master/artifacts/1.tgz",
+            .hash = "1220005bc134e96cb0fce8a63e3570b35f47e4aa05340fdf3548eb05ac1fcd592db0",
+        },
+        .tar_gz = .{
+            .url = "https://github.com/Cloudef/zig-package-manager-regression-tests/raw/master/artifacts/1.tar.gz",
+            .hash = "1220005bc134e96cb0fce8a63e3570b35f47e4aa05340fdf3548eb05ac1fcd592db0",
+        },
+        .txz = .{
+            .url = "https://github.com/Cloudef/zig-package-manager-regression-tests/raw/master/artifacts/1.txz",
+            .hash = "1220005bc134e96cb0fce8a63e3570b35f47e4aa05340fdf3548eb05ac1fcd592db0",
+        },
+        .tar_xz = .{
+            .url = "https://github.com/Cloudef/zig-package-manager-regression-tests/raw/master/artifacts/1.tar.xz",
+            .hash = "1220005bc134e96cb0fce8a63e3570b35f47e4aa05340fdf3548eb05ac1fcd592db0",
+        },
+        .tzst = .{
+            .url = "https://github.com/Cloudef/zig-package-manager-regression-tests/raw/master/artifacts/1.tzst",
+            .hash = "1220005bc134e96cb0fce8a63e3570b35f47e4aa05340fdf3548eb05ac1fcd592db0",
+        },
+        .tar_zst = .{
+            .url = "https://github.com/Cloudef/zig-package-manager-regression-tests/raw/master/artifacts/1.tar.zst",
+            .hash = "1220005bc134e96cb0fce8a63e3570b35f47e4aa05340fdf3548eb05ac1fcd592db0",
+        },
+    },
+}
