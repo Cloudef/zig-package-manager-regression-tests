@@ -9,6 +9,7 @@ pub fn build(b: *std.Build) void {
     add(b, "tzst");
     add(b, "tar_zst");
     add(b, "git");
+    add(b, "path");
 }
 
 fn add(b: *std.Build, name: []const u8) void {

@@ -2,6 +2,7 @@
     .name = "package manager tests for zig-contrib",
     .version = "0.0.1",
     .paths = .{
+        "artifacts/template",
         "build.zig",
         "build.zig.zon",
     },
@@ -37,6 +38,9 @@
         .git = .{
             .url = "git+https://github.com/Cloudef/zig-package-manager-regression-tests#787ebad2244d6923a9502398768e16fab4989d6a",
             .hash = "12206eefec214e51796e8faa3b8ba38757024af5d57a4cbff399ff2a24449d6a7989",
+        },
+        .path = .{
+            .path = "artifacts/template",
         },
     },
 }
